@@ -34,5 +34,9 @@ press R-Shift
 - [fischboy](https://github.com/fischboy1337)
 ## Credits
 
-- [Craftsblockarmy](https://www.youtube.com/@craftscodesarmy/videos)
+- [Craftsblockarmy](https://github.com/Geuxy/mixins-base)
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fischboy.eu/)
+[![youtube](https://img.shields.io/badge/youtube-0A66C2?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@fischboy)
+[![twitch](https://img.shields.io/badge/twitch-0A66C2?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.com/fischboy1)
