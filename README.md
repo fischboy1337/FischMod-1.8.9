@@ -34,7 +34,7 @@ press R-Shift
 - [fischboy](https://github.com/fischboy1337)
 ## Credits
 
-- [Craftsblockarmy](https://github.com/Geuxy/mixins-base)
+- Base: [Geuxy](https://github.com/Geuxy/mixins-base)
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fischboy.eu/)
