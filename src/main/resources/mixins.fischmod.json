@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "de.fischboy.fischmod.mixins",
+  "refmap": "mixins.fischmod.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "client.MixinMinecraft",
+    "client.entity.MixinEntityPlayerSP",
+    "client.entity.MixinRenderTNTPrimed",
+    "client.gui.MixinGuiIngame",
+    "client.gui.MixinGuiMainMenu",
+    "client.renderer.MixinBlockRendererDispatcher",
+    "client.renderer.MixinEntityRenderer",
+    "client.renderer.MixinItemRenderer",
+    "client.renderer.MixinRenderEntityItem",
+    "client.renderer.MixinRendererLivingEntity",
+    "client.settings.MixinGameSettings"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

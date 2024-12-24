@@ -1,0 +1,121 @@
+{
+  "mappings": {
+    "de/fischboy/fischmod/mixins/client/MixinMinecraft": {
+      "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+      "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
+      "shutdownMinecraftApplet": "Lnet/minecraft/client/Minecraft;func_71405_e()V"
+    },
+    "de/fischboy/fischmod/mixins/client/renderer/MixinBlockRendererDispatcher": {
+      "renderBlock": "Lnet/minecraft/client/renderer/BlockRendererDispatcher;func_175018_a(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/BlockPos;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/client/renderer/WorldRenderer;)Z"
+    },
+    "de/fischboy/fischmod/mixins/client/renderer/MixinRendererLivingEntity": {
+      "setBrightness": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_177092_a(Lnet/minecraft/entity/EntityLivingBase;FZ)Z"
+    },
+    "de/fischboy/fischmod/mixins/client/gui/MixinGuiIngame": {
+      "renderTooltip": "Lnet/minecraft/client/gui/GuiIngame;func_180479_a(Lnet/minecraft/client/gui/ScaledResolution;F)V"
+    },
+    "de/fischboy/fischmod/mixins/client/renderer/MixinEntityRenderer": {
+      "hurtCameraEffect": "Lnet/minecraft/client/renderer/EntityRenderer;func_78482_e(F)V",
+      "getFOVModifier": "Lnet/minecraft/client/renderer/EntityRenderer;func_78481_a(FZ)F",
+      "Lnet/minecraft/client/renderer/EntityRenderer;renderHand:Z": "Lnet/minecraft/client/renderer/EntityRenderer;field_175074_C:Z",
+      "renderWorldPass": "Lnet/minecraft/client/renderer/EntityRenderer;func_175068_a(IFJ)V",
+      "Lnet/minecraft/client/settings/GameSettings;fovSetting:F": "Lnet/minecraft/client/settings/GameSettings;field_74334_X:F"
+    },
+    "de/fischboy/fischmod/mixins/client/entity/MixinEntityPlayerSP": {
+      "onUpdate": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70071_h_()V"
+    },
+    "de/fischboy/fischmod/mixins/client/renderer/MixinItemRenderer": {
+      "Lnet/minecraft/client/entity/AbstractClientPlayer;getSwingProgress(F)F": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_70678_g(F)F",
+      "transformFirstPersonItem": "Lnet/minecraft/client/renderer/ItemRenderer;func_178096_b(FF)V",
+      "Lnet/minecraft/client/renderer/GlStateManager;translate(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179109_b(FFF)V",
+      "Lnet/minecraft/client/renderer/ItemRenderer;transformFirstPersonItem(FF)V": "Lnet/minecraft/client/renderer/ItemRenderer;func_178096_b(FF)V",
+      "renderItemInFirstPerson": "Lnet/minecraft/client/renderer/ItemRenderer;func_78440_a(F)V"
+    },
+    "de/fischboy/fischmod/mixins/client/entity/MixinRenderTNTPrimed": {
+      "doRender(Lnet/minecraft/entity/item/EntityTNTPrimed;DDDFF)V": "Lnet/minecraft/client/renderer/entity/RenderTNTPrimed;func_76986_a(Lnet/minecraft/entity/item/EntityTNTPrimed;DDDFF)V"
+    },
+    "de/fischboy/fischmod/mixins/client/gui/MixinGuiMainMenu": {
+      "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+    }
+  },
+  "data": {
+    "notch": {
+      "de/fischboy/fischmod/mixins/client/MixinMinecraft": {
+        "startGame": "Lave;am()V",
+        "runTick": "Lave;s()V",
+        "shutdownMinecraftApplet": "Lave;g()V"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinBlockRendererDispatcher": {
+        "renderBlock": "Lbgd;a(Lalz;Lcj;Ladq;Lbfd;)Z"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinRendererLivingEntity": {
+        "setBrightness": "Lbjl;a(Lpr;FZ)Z"
+      },
+      "de/fischboy/fischmod/mixins/client/gui/MixinGuiIngame": {
+        "renderTooltip": "Lavo;a(Lavr;F)V"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinEntityRenderer": {
+        "hurtCameraEffect": "Lbfk;d(F)V",
+        "getFOVModifier": "Lbfk;a(FZ)F",
+        "Lnet/minecraft/client/renderer/EntityRenderer;renderHand:Z": "Lbfk;C:Z",
+        "renderWorldPass": "Lbfk;a(IFJ)V",
+        "Lnet/minecraft/client/settings/GameSettings;fovSetting:F": "Lavh;aI:F"
+      },
+      "de/fischboy/fischmod/mixins/client/entity/MixinEntityPlayerSP": {
+        "onUpdate": "Lbew;t_()V"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinItemRenderer": {
+        "Lnet/minecraft/client/entity/AbstractClientPlayer;getSwingProgress(F)F": "Lbet;l(F)F",
+        "transformFirstPersonItem": "Lbfn;b(FF)V",
+        "Lnet/minecraft/client/renderer/GlStateManager;translate(FFF)V": "Lbfl;b(FFF)V",
+        "Lnet/minecraft/client/renderer/ItemRenderer;transformFirstPersonItem(FF)V": "Lbfn;b(FF)V",
+        "renderItemInFirstPerson": "Lbfn;a(F)V"
+      },
+      "de/fischboy/fischmod/mixins/client/entity/MixinRenderTNTPrimed": {
+        "doRender(Lnet/minecraft/entity/item/EntityTNTPrimed;DDDFF)V": "Lbkf;a(Lvj;DDDFF)V"
+      },
+      "de/fischboy/fischmod/mixins/client/gui/MixinGuiMainMenu": {
+        "initGui": "Laya;b()V"
+      }
+    },
+    "searge": {
+      "de/fischboy/fischmod/mixins/client/MixinMinecraft": {
+        "startGame": "Lnet/minecraft/client/Minecraft;func_71384_a()V",
+        "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
+        "shutdownMinecraftApplet": "Lnet/minecraft/client/Minecraft;func_71405_e()V"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinBlockRendererDispatcher": {
+        "renderBlock": "Lnet/minecraft/client/renderer/BlockRendererDispatcher;func_175018_a(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/BlockPos;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/client/renderer/WorldRenderer;)Z"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinRendererLivingEntity": {
+        "setBrightness": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_177092_a(Lnet/minecraft/entity/EntityLivingBase;FZ)Z"
+      },
+      "de/fischboy/fischmod/mixins/client/gui/MixinGuiIngame": {
+        "renderTooltip": "Lnet/minecraft/client/gui/GuiIngame;func_180479_a(Lnet/minecraft/client/gui/ScaledResolution;F)V"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinEntityRenderer": {
+        "hurtCameraEffect": "Lnet/minecraft/client/renderer/EntityRenderer;func_78482_e(F)V",
+        "getFOVModifier": "Lnet/minecraft/client/renderer/EntityRenderer;func_78481_a(FZ)F",
+        "Lnet/minecraft/client/renderer/EntityRenderer;renderHand:Z": "Lnet/minecraft/client/renderer/EntityRenderer;field_175074_C:Z",
+        "renderWorldPass": "Lnet/minecraft/client/renderer/EntityRenderer;func_175068_a(IFJ)V",
+        "Lnet/minecraft/client/settings/GameSettings;fovSetting:F": "Lnet/minecraft/client/settings/GameSettings;field_74334_X:F"
+      },
+      "de/fischboy/fischmod/mixins/client/entity/MixinEntityPlayerSP": {
+        "onUpdate": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70071_h_()V"
+      },
+      "de/fischboy/fischmod/mixins/client/renderer/MixinItemRenderer": {
+        "Lnet/minecraft/client/entity/AbstractClientPlayer;getSwingProgress(F)F": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_70678_g(F)F",
+        "transformFirstPersonItem": "Lnet/minecraft/client/renderer/ItemRenderer;func_178096_b(FF)V",
+        "Lnet/minecraft/client/renderer/GlStateManager;translate(FFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179109_b(FFF)V",
+        "Lnet/minecraft/client/renderer/ItemRenderer;transformFirstPersonItem(FF)V": "Lnet/minecraft/client/renderer/ItemRenderer;func_178096_b(FF)V",
+        "renderItemInFirstPerson": "Lnet/minecraft/client/renderer/ItemRenderer;func_78440_a(F)V"
+      },
+      "de/fischboy/fischmod/mixins/client/entity/MixinRenderTNTPrimed": {
+        "doRender(Lnet/minecraft/entity/item/EntityTNTPrimed;DDDFF)V": "Lnet/minecraft/client/renderer/entity/RenderTNTPrimed;func_76986_a(Lnet/minecraft/entity/item/EntityTNTPrimed;DDDFF)V"
+      },
+      "de/fischboy/fischmod/mixins/client/gui/MixinGuiMainMenu": {
+        "initGui": "Lnet/minecraft/client/gui/GuiMainMenu;func_73866_w_()V"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+FD: de/fischboy/fischmod/mixins/client/MixinMinecraft/thePlayer de/fischboy/fischmod/mixins/client/MixinMinecraft/field_71439_g
+FD: de/fischboy/fischmod/mixins/client/MixinMinecraft/running de/fischboy/fischmod/mixins/client/MixinMinecraft/field_71425_J
+FD: de/fischboy/fischmod/mixins/client/renderer/MixinItemRenderer/mc de/fischboy/fischmod/mixins/client/renderer/MixinItemRenderer/field_78455_a
+FD: de/fischboy/fischmod/mixins/client/renderer/MixinItemRenderer/itemToRender de/fischboy/fischmod/mixins/client/renderer/MixinItemRenderer/field_78453_b
+FD: de/fischboy/fischmod/mixins/client/settings/MixinGameSettings/keyBindings de/fischboy/fischmod/mixins/client/settings/MixinGameSettings/field_74324_K
+FD: de/fischboy/fischmod/mixins/client/settings/MixinGameSettings/keyBindSpectatorOutlines de/fischboy/fischmod/mixins/client/settings/MixinGameSettings/field_178883_an
+MD: de/fischboy/fischmod/mixins/client/MixinMinecraft/isSingleplayer ()Z de/fischboy/fischmod/mixins/client/MixinMinecraft/func_71356_B ()Z
+MD: de/fischboy/fischmod/mixins/client/MixinMinecraft/getCurrentServerData ()Lnet/minecraft/client/multiplayer/ServerData; de/fischboy/fischmod/mixins/client/MixinMinecraft/func_147104_D ()Lnet/minecraft/client/multiplayer/ServerData;
+MD: de/fischboy/fischmod/mixins/client/renderer/MixinRenderEntityItem/func_177078_a (Lnet/minecraft/item/ItemStack;)I de/fischboy/fischmod/mixins/client/renderer/MixinRenderEntityItem/func_177078_a (Lnet/minecraft/item/ItemStack;)I
+MD: de/fischboy/fischmod/mixins/client/renderer/MixinRenderEntityItem/func_177077_a (Lnet/minecraft/entity/item/EntityItem;DDDFLnet/minecraft/client/resources/model/IBakedModel;)I de/fischboy/fischmod/mixins/client/renderer/MixinRenderEntityItem/func_177077_a (Lnet/minecraft/entity/item/EntityItem;DDDFLnet/minecraft/client/resources/model/IBakedModel;)I

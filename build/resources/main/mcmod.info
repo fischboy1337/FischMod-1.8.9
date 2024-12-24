@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fischmod",
+  "name": "FischMod",
+  "description": "A PVP Minecraft mod",
+  "version": "1.8-Dev",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["fischboy"],
+  "credits": ["manuthebyte", "geuxy"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
