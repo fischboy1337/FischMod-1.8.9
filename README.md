@@ -5,6 +5,11 @@ FischMod is an discontinued PVP client for 1.8.9 or [1.21.1](https://github.com/
 Yes. Only a China Hat ;)
 
 ## What features does the Client has?
+### Cheat (Dont ask why. Im was experimenting with Minecraft)
+- BedESP
+- ChestESP
+- ESP
+- Murder Mystery Finder
 ### Gameplay
 - Animation
 - AutoGG (Only Hypixel)
