@@ -28,6 +28,7 @@ public class FischMod {
     public void start() {
         this.eventManager.register(this);
         this.keybindingManager.onStart();
+        this.configManager.onStart();
         this.moduleManager.onStart();
 
         try {

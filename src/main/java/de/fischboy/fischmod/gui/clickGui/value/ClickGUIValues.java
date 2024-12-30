@@ -65,6 +65,7 @@ public class ClickGUIValues extends GuiScreen {
 
         this.handleScrolling();
         this.updateValuePosition();
+        clickGUI.drawWindow();
 
         float backX = clickGUI.getHalfWidth() + (clickGUI.getWindowWidth() / 2) - 20;
         float backY = clickGUI.getHalfHeight() - (clickGUI.getWindowHeight() / 2) + 15;
