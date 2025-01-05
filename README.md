@@ -1,5 +1,5 @@
 # FischMod 1.8.9 (DISCONTINUED)
-FischMod is an discontinued PVP client for 1.8.9 or [1.21.1](https://github.com/fischboy1337/FischMod-1.21.1) made for friends.
+FischMod is an discontinued PVP client for 1.8.9 or [1.21.1](https://github.com/fischboy1337/FischMod.1.21.1) made for friends.
 
 ## Are there cosmetics?
 Yes. China Hat
